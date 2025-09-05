@@ -20,3 +20,18 @@ How to run project:
 3.Open the project folder in VS Code.
 4.Right-click on index.html and select "Open with Live Server".
 5.Your site will open in your default browser.
+
+Reflection Questions:
+1. Accessibility challenges & solutions
+Ensured screen reader support with ARIA roles, aria-label, and aria-describedby.
+Added alt text for images and clear focus styles for keyboard navigation.
+Linked all form inputs with <label> elements for better usability.
+
+2. Responsive & accessible design
+Used Flexbox for the header and Grid for multi-column layouts.
+Applied media queries (1024px, 600px) for mobile-friendly layouts.
+Checked color contrast, keyboard navigation, and scalable text.
+
+3. Helpful tools & resources
+Chrome DevTools for responsive testing.
+Web Docs for HTML, CSS, and ARIA guidance.
