@@ -13,7 +13,7 @@ Features:
   -Color contrast compliance.
 
 How to run project:
-  -Download or clone this repository: git clone https://github.com/AyaanAkbar/SPA-2.git
+  -Download or clone this repository: git clone https://github.com/AyaanAkbar05/SPA-2.git
   -Install VS Code and the Live Server extension.
   -Open the project folder in VS Code.
   -Right-click on index.html and select "Open with Live Server".
