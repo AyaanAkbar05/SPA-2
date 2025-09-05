@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Design Co.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <a href="#" class="logo">
+        <img src="AD.jpg" alt="Accessible Design Co. logo">
+      </a>
+      <nav role="navigation" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero" aria-labelledby="hero-heading">
+      <div class="hero-overlay">
+        <h1 id="hero-heading">Building Inclusive and Accessible Web Solutions</h1>
+        <p>Empowering businesses to reach everyone, everywhere.</p>
+        <a href="#services" class="cta">Explore Services</a>
+      </div>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading">About Us</h2>
+        <article>
+          <p>Accessible Design Co. is dedicated to creating websites that are inclusive, visually stunning, and user-friendly for all audiences. Our mission is to ensure every user, regardless of ability, has a seamless digital experience.</p>
+        </article>
+      </div>
+    </section>
+    <section id="services" class="services" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading">Our Services</h2>
+        <div class="services-grid">
+          <article>
+            <img src="images.png" alt="Web Accessibility Audits">
+            <h3>Accessibility Audits</h3>
+            <p>We assess your site for accessibility compliance and provide actionable recommendations.</p>
+          </article>
+          <article>
+            <img src="images2.jpg" alt="Responsive Web Design">
+            <h3>Responsive Web Design</h3>
+            <p>Our designs ensure your website works beautifully across all devices.</p>
+          </article>
+          <article>
+            <img src="images4.jpg" alt="Inclusive UX Consulting">
+            <h3>Inclusive UX Consulting</h3>
+            <p>We help you create user experiences that prioritize inclusion and usability.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading">Contact Us</h2>
+        <form aria-describedby="contact-instructions">
+          <p id="contact-instructions">Fill out this form to get in touch with our team.</p>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required aria-required="true" placeholder="John Doe">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required aria-required="true" placeholder="john.doe@gmail.com">
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Enter subject here...">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Enter message here..."></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Accessible Design Co. All rights reserved.</p>
+      <ul class="social-links">
+        <li><a href="#" aria-label="Follow us on Twitter">Twitter</a></li>
+        <li><a href="#" aria-label="Follow us on LinkedIn">LinkedIn</a></li>
+        <li><a href="#" aria-label="Follow us on Instagram">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
